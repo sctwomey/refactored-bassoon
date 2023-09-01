@@ -1,12 +1,18 @@
+/* Sets the starting layout for the webpage */
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Sets the primary background color for the webpage */
+
 body {
     background-color: #d9dcd6;
 }
+
+/* Sets the styling attributes for the header elements such as the compnay name and the navibar bar */
 
 .header {
     padding: 20px;
@@ -50,6 +56,8 @@ p {
     font-size: 16px;
 }
 
+/* Sets the styling attibutes for the main webpage image at the top of the webpage */
+
 .hero {
     height: 800px;
     width: 100%;
@@ -59,21 +67,29 @@ p {
     background-position: center;
 }
 
+/* Sets the location for the SEO and Social Media Marketing images */
+
 .float-left {
     float: left;
     margin-right: 25px;
 }
+
+/* Sets the location for the Online Reputation Management image */
 
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Sets the layout for the main section on the webpage */
+
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
+/* Sets the styling attributes for the article section on the webpage */
 
 .benefits {
     margin-right: 20px;
@@ -134,6 +150,8 @@ p {
     max-width: 150px;
 }
 
+/* Sets the styling attributes for the main section on the webpage */
+
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -187,6 +205,8 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* Sets the styling attributes for the footer section on the webpage */
 
 .footer {
     padding: 30px;
